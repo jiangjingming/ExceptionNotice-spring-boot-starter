@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.mhc.ambulance.aspect.ExceptionNoticeAspect,\
+com.mhc.ambulance.config.ThreadPoolConfig,\
+com.mhc.ambulance.util.SpringUtil,\
+com.mhc.ambulance.config.CommonConfig
