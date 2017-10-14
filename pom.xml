@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mhc</groupId>
-    <artifactId>ambulance-spring-boot-starter</artifactId>
+    <artifactId>ExceptionNotice-spring-boot-starter</artifactId>
     <version>0.0.2</version>
 
     <properties>
@@ -63,19 +63,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>releases</name>
-            <url>http://yijiqingchen.com:9000/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <name>snapshots</name>
-            <id>snapshots</id>
-            <url>http://yijiqingchen.com:9000/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
 
 </project>

@@ -1,9 +1,9 @@
-package com.mhc.ambulance.aspect;
+package com.jjm.aspect;
 
 import com.alibaba.fastjson.JSON;
-import com.mhc.ambulance.annotation.ExceptionNotice;
-import com.mhc.ambulance.exception.NoticeException;
-import com.mhc.ambulance.model.MessageMarkDownModel;
+import com.jjm.annotation.ExceptionNotice;
+import com.jjm.exception.NoticeException;
+import com.jjm.model.MessageMarkDownModel;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterThrowing;
@@ -27,7 +27,7 @@ public class ExceptionNoticeAspect {
     /*@Autowired
     private RedisTemplate redisTemplate;*/
 
-    @Pointcut("@annotation(com.mhc.ambulance.annotation.ExceptionNotice)")
+    @Pointcut("@annotation(com.jjm.annotation.ExceptionNotice)")
     public void exceptionNoticeAspect() {
     }
 

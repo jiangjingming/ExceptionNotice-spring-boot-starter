@@ -1,10 +1,10 @@
-package com.mhc.ambulance.exception;
+package com.jjm.exception;
 
 
 import com.alibaba.fastjson.JSON;
-import com.mhc.ambulance.consts.enums.ErrorCodeEnum;
-import com.mhc.ambulance.model.MessageTextModel;
-import com.mhc.ambulance.util.SpringUtil;
+import com.jjm.consts.enums.ErrorCodeEnum;
+import com.jjm.model.MessageTextModel;
+import com.jjm.util.SpringUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;

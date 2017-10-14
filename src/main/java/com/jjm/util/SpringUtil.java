@@ -1,4 +1,4 @@
-package com.mhc.ambulance.util;
+package com.jjm.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

@@ -1,4 +1,4 @@
-package com.mhc.ambulance.consts.enums;
+package com.jjm.consts.enums;
 
 /**
  * Created by zhenmo on 16/9/22.

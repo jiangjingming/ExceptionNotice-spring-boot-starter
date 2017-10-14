@@ -1,4 +1,4 @@
-package com.mhc.ambulance.model;
+package com.jjm.model;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.mhc.ambulance.config;
+package com.jjm.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

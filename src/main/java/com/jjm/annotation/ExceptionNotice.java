@@ -1,4 +1,4 @@
-package com.mhc.ambulance.annotation;
+package com.jjm.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
